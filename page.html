@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Practice</title>
+
+    <!--Brython Import from https://brython.info/static_doc/en/-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.2/brython.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.2/brython_stdlib.min.js"></script>
+  </head>
+  <body onload="brython()">
+    <script src="encoding.py" type="text/python"></script>
+    <div>
+      <h3>Input Message</h3>
+      <textarea></textarea>
+      <br />
+      <button type="submit" id="submit" autocomplete="off">Encode</button>
+      <p>Converted Message:</p>
+      <div>[output]</div>
+    </div>
+  </body>
+</html>
